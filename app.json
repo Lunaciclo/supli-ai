@@ -21,6 +21,11 @@
         "backgroundColor": "#F5F2EC"
       },
       "package": "com.supliai"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "29221c10-d426-4dcc-9955-4205a7703a32"
+      }
     }
   }
 }
