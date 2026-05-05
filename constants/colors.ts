@@ -1,0 +1,18 @@
+export const Colors = {
+  bg: '#F5F2EC',
+  white: '#FFFFFF',
+  black: '#111111',
+  charcoal: '#333333',
+  muted: '#888888',
+  border: '#E2DDD4',
+  accent: '#2D6A4F',
+  accent2: '#40916C',
+  accentLight: '#74C69D',
+  sage: '#B8D4C0',
+  amber: '#F0D090',
+  coral: '#F0C4B0',
+  indigo: '#C8C4E8',
+  purple: '#8B7FD4',
+  sand: '#E8DCC8',
+  slate: '#C4CDD8',
+};
