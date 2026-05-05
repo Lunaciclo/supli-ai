@@ -4,30 +4,16 @@
     "slug": "supli-ai",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#F5F2EC"
-    },
+    "icon": "./assets/icon.png",
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "com.supliai",
-      "buildNumber": "1"
+      "bundleIdentifier": "com.supliai"
     },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#F5F2EC"
-      },
-      "package": "com.supliai",
-      "versionCode": 1
-    },
-    "plugins": [
-      "expo-router",
-      "expo-notifications"
-    ],
-    "scheme": "supliai"
+    "plugins": ["expo-router"],
+    "scheme": "supliai",
+    "experiments": {
+      "typedRoutes": true
+    }
   }
 }
