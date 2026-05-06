@@ -5,10 +5,8 @@
   "build": {
     "production": {
       "ios": {
-        "resourceClass": "m-medium"
-      },
-      "env": {
-        "EXPO_NO_CAPABILITY_SYNC": "1"
+        "resourceClass": "m-medium",
+        "scheme": "SupliAI"
       }
     }
   }
